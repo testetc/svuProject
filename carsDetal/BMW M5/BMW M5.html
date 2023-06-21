@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style.css">
+    <title>BMw M5</title>
+</head>
+<body>
+    <div class="container">
+        <div class="carDetal">
+            <div class="imgContainer">
+                <img src="asset/BM-1.jpg" class="imgDetal" style="border-radius: 0 20px 0 0 ;">
+                <img src="asset/BM-2.jpg" class="imgDetal" style="border-radius: 20px 0 0 0 ;">
+                <img src="asset/BM-3.jpg" class="imgDetal" style="border-radius: 0 0 20px 0 ;">
+                <img src="asset/BM-4.jpg" class="imgDetal" style="border-radius: 0 0 0 20px ;">
+            </div>
+            <div class="carName">BMw M5</div>
+            <p class="p">
+                بالتأكيد، سيارة BMW M5 الجيل الأول التي تم إطلاقها في عام 1985 كانت من أول سيارات BMW M الفاخرة والرياضية التي تم تصنيعها وإنتاجها في الوقت نفسه. تتميز هذه السيارة بمواصفات تجعلها خيارًا مثاليًا لعشاق السيارات الفاخرة الرياضية.
+
+                تتميز سيارة BMW M5 الجيل الأول بمحرك قوي سعة 3.5 لتر بعدد 6 أسطوانات مع شاحن توربيني، بقوة 286 حصانًا، وهذا يجعلها تحقق تسارع 0-100 كم/س خلال 6.5 ثانية فقط. كما تتميز بناقل حركة يدوي مكون من 5 سرعات، وهذا يمكن أن يتيح للسائق تجربة القيادة الرياضية الحقيقية.
+                
+                تتميز سيارة BMW M5 الجيل الأول بتصميمها الأنيق والمميز، وتوفر مظهرًا رياضيًا ممتازًا وخطوط أنيقة، كما تتوفر بألوان متعددة تناسب جميع الأذواق، بالإضافة إلى ميزات داخلية فاخرة مثل مقاعد جلدية ونظام صوتي عالي الجودة وشاشة عرض معلومات السائق.
+                
+                تتميز سيارة BMW M5 الجيل الأول بالعديد من الميزات الأمنية الحديثة، مثل نظام مكابح ABS ونظام تحكم في الثبات ووسائد هوائية للسائق والراكب الأمامي وميزات أمان أخرى تجعل السيارة آمنة وموثوقة.
+                
+                وتعتبر سيارة BMW M5 الجيل الأول خيارًا مثاليًا لمحبي السيارات الفاخرة الرياضية، الذين يرغبون في الحصول على سيارة توفر أداءً عاليًا وتصميمًا رائعًا وميزات تقنية حديثة وأمانًا عاليًا.   
+             </p>
+            <div class="btnContainer">
+                <a href="../gClass/../../cars.html"><button class="btn1">الغاء</button></a>
+                <button id="btn" class="btn1">متابعة</button>
+            </div>
+        </div>
+        <div class="formContainer">
+            <div class="title">المعلومات الشخصية</div>
+            <form class="form1">
+                <input type="text" onkeydown="validateArabicLetters(event)" class="inp" id="Pname" required placeholder="اسم مقدم الطلب">
+                
+<input type="text" pattern="09[3589]\d{7}" title="يرجى إدخال رقم صحيح مؤلف من 10 أرقام والذي يبدأ بـ 09 ويتبعه رقم سيرياتيل او ام تي ان إما 3 أو 5 أو 8 أو 9" class="inp" placeholder="رقم الهاتف" required id="phoneNumber" >  
+<input type="text" pattern="(01|02|03|04|05|06|07|08|09|10|11|12|13|14)\d{9}" title="يرجى إدخال رقم  مؤلف من 11 رقمًا ويبدأ بـ 01 أو 02 أو 03 أو 04 أو 05 أو 06 أو 07 أو 08 أو 09 أو 10 أو 11 أو 12 أو 13 أو 14" class="inp" placeholder="الرقم لبوطني"id="ID" >      
+        <input type="email" id="email" placeholder="الايميل" class="inp"  required >
+                <div class="nistedForm">
+                    <input type="number" id="day" placeholder="dd" min="1" max="31" required >
+                    <input type="number" id="month" placeholder="mm" min="1" max="12" required >
+                    <input type="number" id="yaer" placeholder="yyyy" min="1800" max="2023" required >
+                </div>
+                <input type="text" id="mainCaptcha" class="inp" required/>
+                <input type="text" id="txtInput" class="inp" placeholder="اكتب الكاباتشا"  required/>
+                
+                <input type="number"  id="rent" class="inp" required placeholder="عدد الايام التي ترغب باستئجار السيارة يها">  
+                <button class="submitBtn" type="submit" >تقديم طلب</button>  
+            </form>
+        </div>
+    </div>
+<script src="../../myFunctions.js"></script> 
+
+</body>
+</html>
+
+ 

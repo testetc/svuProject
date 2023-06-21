@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style.css">
+    <title>picanto</title>
+</head>
+<body>
+    <div class="container">
+        <div class="carDetal">
+            <div class="imgContainer">
+                <img src="asset/picanto-1.jpg" class="imgDetal" style="border-radius: 0 20px 0 0 ;">
+                <img src="asset/picanto-2.jpg" class="imgDetal" style="border-radius: 20px 0 0 0 ;">
+                <img src="asset/picanto-3.jpg" class="imgDetal" style="border-radius: 0 0 20px 0 ;">
+                <img src="asset/picanto-4.jpg" class="imgDetal" style="border-radius: 0 0 0 20px ;">
+            </div>
+            <div class="carName">picanto</div>
+            <p class="p">
+
+                سيارة كيا بيكانتو هي سيارة صغيرة من صنع شركة كيا الكورية الجنوبية. تتوفر بنسختين هما بيكانتو 5 باب وبيكانتو 3 باب وتتميز بتصميمها الجميل والأنيق وحجمها الصغير الذي يجعلها سهلة القيادة والتنقل في الأماكن الضيقة.
+
+                تتميز بيكانتو بأداء جيد واقتصادية في استهلاك الوقود، وتتوفر بمحركات بنزين وديزل، وتعد مثالية للاستخدام اليومي في المدينة. كما تتميز بيكانتو بمستوى عالٍ من الأمان والموثوقية، حيث تتضمن العديد من الميزات الأمنية مثل نظام مكابح ABS ونظام توزيع قوة الفرملة EBD ووسائد هوائية للسائق والراكب الأمامي.
+                
+                بشكل عام، فإن سيارة كيا بيكانتو تعتبر خيارًا جيدًا للأشخاص الذين يبحثون عن سيارة صغيرة واقتصادية وذات أداء جيد وأمان عالي، ولكن قد لا تكون مناسبة للأشخاص الذين يحتاجون إلى مساحة أكبر في السيارة.           
+             </p>
+            <div class="btnContainer">
+                <a href="../gClass/../../cars.html"><button class="btn1">الغاء</button></a>
+                <button id="btn" class="btn1">متابعة</button>
+            </div>
+        </div>
+        <div class="formContainer">
+            <div class="title">المعلومات الشخصية</div>
+            <form class="form1">
+                <input type="text" onkeydown="validateArabicLetters(event)" class="inp" id="Pname" required placeholder="اسم مقدم الطلب">
+                
+<input type="text" pattern="09[3589]\d{7}" title="يرجى إدخال رقم صحيح مؤلف من 10 أرقام والذي يبدأ بـ 09 ويتبعه رقم سيرياتيل او ام تي ان إما 3 أو 5 أو 8 أو 9" class="inp" placeholder="رقم الهاتف" required id="phoneNumber" >  
+<input type="text" pattern="(01|02|03|04|05|06|07|08|09|10|11|12|13|14)\d{9}" title="يرجى إدخال رقم  مؤلف من 11 رقمًا ويبدأ بـ 01 أو 02 أو 03 أو 04 أو 05 أو 06 أو 07 أو 08 أو 09 أو 10 أو 11 أو 12 أو 13 أو 14" class="inp" placeholder="الرقم لبوطني"id="ID" >      
+        <input type="email" id="email" placeholder="الايميل" class="inp"  required >
+                <div class="nistedForm">
+                    <input type="number" id="day" placeholder="dd" min="1" max="31" required >
+                    <input type="number" id="month" placeholder="mm" min="1" max="12" required >
+                    <input type="number" id="yaer" placeholder="yyyy" min="1800" max="2023" required >
+                </div>
+                <input type="text" id="mainCaptcha" class="inp" required/>
+                <input type="text" id="txtInput" class="inp" placeholder="اكتب الكاباتشا"  required/>
+                
+                <input type="number"  id="rent" class="inp" required placeholder="عدد الايام التي ترغب باستئجار السيارة يها">  
+                <button class="submitBtn" type="submit" >تقديم طلب</button>  
+            </form>
+        </div>
+    </div>
+<script src="../../myFunctions.js"></script> 
+
+</body>
+</html>
+
+ 
